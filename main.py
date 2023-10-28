@@ -48,13 +48,13 @@
 
 def coc_roi():
     #Introduction
-    print("Allow me to calculate your rental property's Return on Investment (ROI). Only use numbers ( no $ or ,).  Type 'quit' at any time to quit.")
+    print("Allow me to calculate your rental property's Return on Investment (ROI). Only use numbers ( no $ or ,).")
 
     #Income
     print("First, let's calculate your Income.")
     ri = int(input("How much is your Rental Income? "))
     li = int(input("How much is your Laundry Income? "))
-    si = int(input("How much is your Sewer Income? "))
+    si = int(input("How much is your Storage Income? "))
     mi = int(input("Please input the amount of any Miscellaneous Income. "))
     inc = ri + li + si + mi
     print(f'Your Total Monthly Income is ${inc}.')
@@ -94,7 +94,7 @@ def coc_roi():
     ti = dp + cc + rb + mo
     roi = (acf/ti) * 100
     print("And now... the moment you've been waiting for!!!")
-    print(f"Your Cash on Cash Return on Investment for this rental property is ${roi}%! (Don't @ me!)")
+    print(f"Your Cash on Cash Return on Investment for this rental property is {roi}%! (Don't @ me!)")
 
 coc_roi()
 
