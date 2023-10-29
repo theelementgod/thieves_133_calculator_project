@@ -48,7 +48,7 @@
 
 def coc_roi():
     #Introduction
-    print("Allow me to calculate your rental property's Return on Investment (ROI). Only use numbers ( no $ or ,).")
+    print("Allow me to calculate your rental property's Return on Investment (ROI). Only use numbers ( no '$' or ',').")
 
     #Income
     print("First, let's calculate your Income.")
